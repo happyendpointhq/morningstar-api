@@ -1,0 +1,684 @@
+{
+  "page": {
+    "securityID": "0P000000GY",
+    "performanceID": "0P000000GY",
+    "companyID": "0C00000ADA",
+    "universe": "EQ",
+    "exchange": "XNAS",
+    "ticker": "AAPL",
+    "slug": "xnas:aapl",
+    "name": "Apple Inc",
+    "exchangeCountry": "USA",
+    "investmentType": "EQ"
+  },
+  "pageMeta": {
+    "links": [
+      {
+        "href": "https://www.morningstar.com/stocks/xnas/aapl/quote",
+        "website": "morningstar",
+        "locale": "en-US"
+      }
+    ]
+  },
+  "components": {
+    "profile": {
+      "status": 200,
+      "payload": {
+        "companyProfile": "Apple is among the largest companies in the world, with a broad portfolio of hardware and software products targeted at consumers and businesses. Apple’s...",
+        "dataPoints": {
+          "sector": {
+            "field": "sector",
+            "name": "Sector",
+            "label": "Sector",
+            "type": "string",
+            "unit": "keyword",
+            "value": "Technology"
+          },
+          "industry": {
+            "field": "industry",
+            "name": "Industry",
+            "label": "Industry",
+            "type": "string",
+            "unit": "keyword",
+            "value": "Consumer Electronics"
+          },
+          "stockStyleBox": {
+            "field": "stockStyleBox",
+            "name": "Stock Style Box",
+            "label": "Stock Style Box",
+            "type": "string",
+            "unit": "keyword",
+            "value": "Large Core",
+            "sortAs": 2
+          },
+          "totalEmployees": {
+            "field": "totalEmployees",
+            "name": "Total Number of Employees",
+            "label": "Total Number of Employees",
+            "type": "number",
+            "exact": true,
+            "fractionalDigits": 0,
+            "value": 166000
+          },
+          "website": {
+            "field": "website",
+            "name": "Website",
+            "label": "Website",
+            "type": "uri",
+            "value": "https://www.apple.com"
+          }
+        }
+      }
+    },
+    "competitors": {
+      "status": 200,
+      "payload": {
+        "results": [
+          {
+            "securityID": "0P0000B2XZ",
+            "performanceID": "0P0000B2XZ",
+            "companyID": "0C00000GJG",
+            "universe": "EQ",
+            "exchange": "XKRX",
+            "ticker": "005930",
+            "slug": "xkrx:005930",
+            "name": "Samsung Electronics Co Ltd",
+            "exchangeCountry": "KOR",
+            "investmentType": "EQ",
+            "isLocked": true,
+            "dataPoints": {
+              "stockStarRating": {
+                "field": "stockStarRating",
+                "name": "Morningstar Rating for Stocks",
+                "label": "Morningstar Rating for Stocks",
+                "properties": {
+                  "asOfDate": {
+                    "value": "2026-10-20"
+                  },
+                  "changeDate": {
+                    "value": "2026-10-13"
+                  },
+                  "isQuant": {
+                    "value": false
+                  },
+                  "change": {
+                    "value": "Increase"
+                  },
+                  "previous": {
+                    "value": 3
+                  },
+                  "evaluatedPrice": {
+                    "value": 211499.98
+                  }
+                },
+                "type": "rank",
+                "unit": "star",
+                "values": [
+                  {
+                    "value": 5
+                  },
+                  {
+                    "value": 4
+                  },
+                  {
+                    "value": 3
+                  },
+                  {
+                    "value": 2
+                  },
+                  {
+                    "value": 1
+                  }
+                ],
+                "value": 64,
+                "locked": true
+              },
+              "stockStarRatingDate": {
+                "field": "stockStarRating",
+                "property": "changeDate",
+                "name": "Change Date",
+                "label": "Morningstar Rating for Stocks",
+                "type": "date",
+                "value": "2026-10-13"
+              }
+            }
+          },
+          {
+            "securityID": "0P000003MH",
+            "performanceID": "0P000003MH",
+            "companyID": "0C000008EC",
+            "universe": "EQ",
+            "exchange": "XNAS",
+            "ticker": "MSFT",
+            "slug": "xnas:msft",
+            "name": "Microsoft Corp",
+            "exchangeCountry": "USA",
+            "investmentType": "EQ",
+            "isLocked": true,
+            "dataPoints": {
+              "stockStarRating": {
+                "field": "stockStarRating",
+                "name": "Morningstar Rating for Stocks",
+                "label": "Morningstar Rating for Stocks",
+                "properties": {
+                  "asOfDate": {
+                    "value": "2026-10-19"
+                  },
+                  "changeDate": {
+                    "value": "2026-07-30"
+                  },
+                  "isQuant": {
+                    "value": false
+                  },
+                  "change": {
+                    "value": "Decrease"
+                  },
+                  "previous": {
+                    "value": 5
+                  },
+                  "evaluatedPrice": {
+                    "value": 533.52
+                  }
+                },
+                "type": "rank",
+                "unit": "star",
+                "values": [
+                  {
+                    "value": 5
+                  },
+                  {
+                    "value": 4
+                  },
+                  {
+                    "value": 3
+                  },
+                  {
+                    "value": 2
+                  },
+                  {
+                    "value": 1
+                  }
+                ],
+                "value": 6,
+                "locked": true
+              },
+              "stockStarRatingDate": {
+                "field": "stockStarRating",
+                "property": "changeDate",
+                "name": "Change Date",
+                "label": "Morningstar Rating for Stocks",
+                "type": "date",
+                "value": "2026-07-30"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "keyStatistics": {
+      "status": 200,
+      "payload": {
+        "dataPoints": {
+          "priceToEarnings[normalized]": {
+            "field": "priceToEarnings",
+            "variation": "normalized",
+            "name": "Price/Earnings (Normalized)",
+            "label": "Price/Earnings",
+            "secondaryText": "Normalized",
+            "type": "number",
+            "value": 39.83043
+          },
+          "priceToSales": {
+            "field": "priceToSales",
+            "variation": "latest",
+            "name": "Price/Sales",
+            "label": "Price/Sales",
+            "type": "number",
+            "value": 10.856755
+          },
+          "dividendYield[trailing]": {
+            "field": "dividendYield",
+            "variation": "trailing",
+            "name": "Dividend Yield (Trailing)",
+            "label": "Dividend Yield",
+            "secondaryText": "Trailing",
+            "type": "number",
+            "unit": "percent",
+            "magnitude": 0,
+            "value": 0.3091
+          },
+          "dividendYield[forward]": {
+            "field": "dividendYield",
+            "variation": "forward",
+            "name": "Dividend Yield (Forward)",
+            "label": "Dividend Yield",
+            "secondaryText": "Forward",
+            "type": "number",
+            "unit": "percent",
+            "magnitude": 0,
+            "value": 0.3149
+          },
+          "dividendPaymentSchedule": {
+            "field": "dividendPaymentSchedule",
+            "name": "Dividend Payment Schedule",
+            "label": "Dividend Payment Schedule",
+            "type": "string",
+            "unit": "keyword",
+            "isArray": true,
+            "value": [
+              2,
+              5,
+              8,
+              11
+            ]
+          },
+          "totalYield": {
+            "field": "totalYield",
+            "variation": "latest",
+            "name": "Total Yield",
+            "label": "Total Yield",
+            "type": "number",
+            "unit": "percent",
+            "value": 1.952
+          }
+        }
+      }
+    },
+    "valuationVsBenchmarks": {
+      "status": 200,
+      "payload": {
+        "dataPoints": [
+          {
+            "label": "AAPL",
+            "values": {
+              "priceToEarnings[normalized]": {
+                "field": "priceToEarnings",
+                "variation": "normalized",
+                "name": "Price/Earnings (Normalized)",
+                "label": "Price/Earnings",
+                "secondaryText": "Normalized",
+                "type": "number",
+                "value": 39.83043
+              },
+              "priceToBook": {
+                "field": "priceToBook",
+                "variation": "latest",
+                "name": "Price/Book Value",
+                "label": "Price/Book Value",
+                "type": "number",
+                "value": 46.595963
+              },
+              "priceToSales": {
+                "field": "priceToSales",
+                "variation": "latest",
+                "name": "Price/Sales",
+                "label": "Price/Sales",
+                "type": "number",
+                "value": 10.856755
+              },
+              "priceToCashFlow": {
+                "field": "priceToCashFlow",
+                "variation": "latest",
+                "name": "Price/Cash Flow",
+                "label": "Price/Cash Flow",
+                "type": "number",
+                "value": 32.622607
+              }
+            }
+          },
+          {
+            "label": "005930",
+            "values": {
+              "priceToEarnings[normalized]": {
+                "field": "priceToEarnings",
+                "variation": "normalized",
+                "name": "Price/Earnings (Normalized)",
+                "label": "Price/Earnings",
+                "secondaryText": "Normalized",
+                "type": "number",
+                "value": 9.700209
+              },
+              "priceToBook": {
+                "field": "priceToBook",
+                "variation": "latest",
+                "name": "Price/Book Value",
+                "label": "Price/Book Value",
+                "type": "number",
+                "value": 2.612313
+              },
+              "priceToSales": {
+                "field": "priceToSales",
+                "variation": "latest",
+                "name": "Price/Sales",
+                "label": "Price/Sales",
+                "type": "number",
+                "value": 2.644482
+              },
+              "priceToCashFlow": {
+                "field": "priceToCashFlow",
+                "variation": "latest",
+                "name": "Price/Cash Flow",
+                "label": "Price/Cash Flow",
+                "type": "number",
+                "value": 5.229073
+              }
+            }
+          },
+          {
+            "label": "MSFT",
+            "values": {
+              "priceToEarnings[normalized]": {
+                "field": "priceToEarnings",
+                "variation": "normalized",
+                "name": "Price/Earnings (Normalized)",
+                "label": "Price/Earnings",
+                "secondaryText": "Normalized",
+                "type": "number",
+                "value": 31.778646
+              },
+              "priceToBook": {
+                "field": "priceToBook",
+                "variation": "latest",
+                "name": "Price/Book Value",
+                "label": "Price/Book Value",
+                "type": "number",
+                "value": 8.956984
+              },
+              "priceToSales": {
+                "field": "priceToSales",
+                "variation": "latest",
+                "name": "Price/Sales",
+                "label": "Price/Sales",
+                "type": "number",
+                "value": 11.982692
+              },
+              "priceToCashFlow": {
+                "field": "priceToCashFlow",
+                "variation": "latest",
+                "name": "Price/Cash Flow",
+                "label": "Price/Cash Flow",
+                "type": "number",
+                "value": 21.169806
+              }
+            }
+          }
+        ]
+      }
+    },
+    "profitabilityVsBenchmarks": {
+      "status": 200,
+      "payload": {
+        "dataPoints": [
+          {
+            "label": "AAPL",
+            "values": {
+              "returnOnAssets[normalized]": {
+                "field": "returnOnAssets",
+                "variation": "normalized",
+                "name": "Return on Assets (Normalized)",
+                "label": "Return on Assets",
+                "secondaryText": "Normalized",
+                "type": "number",
+                "unit": "percent",
+                "value": 38.4417
+              },
+              "returnOnEquity[normalized]": {
+                "field": "returnOnEquity",
+                "variation": "normalized",
+                "name": "Return on Equity (Normalized)",
+                "label": "Return on Equity",
+                "secondaryText": "Normalized",
+                "type": "number",
+                "unit": "percent",
+                "value": 158.755
+              },
+              "returnOnCapital[normalized]": {
+                "field": "returnOnCapital",
+                "variation": "normalized",
+                "name": "Return on Invested Capital (Normalized)",
+                "label": "Return on Invested Capital",
+                "secondaryText": "Normalized",
+                "type": "number",
+                "unit": "percent",
+                "value": 77.77929999999999
+              }
+            }
+          },
+          {
+            "label": "005930",
+            "values": {
+              "returnOnAssets[normalized]": {
+                "field": "returnOnAssets",
+                "variation": "normalized",
+                "name": "Return on Assets (Normalized)",
+                "label": "Return on Assets",
+                "secondaryText": "Normalized",
+                "type": "number",
+                "unit": "percent",
+                "value": 24.858900000000002
+              },
+              "returnOnEquity[normalized]": {
+                "field": "returnOnEquity",
+                "variation": "normalized",
+                "name": "Return on Equity (Normalized)",
+                "label": "Return on Equity",
+                "secondaryText": "Normalized",
+                "type": "number",
+                "unit": "percent",
+                "value": 33.4677
+              },
+              "returnOnCapital[normalized]": {
+                "field": "returnOnCapital",
+                "variation": "normalized",
+                "name": "Return on Invested Capital (Normalized)",
+                "label": "Return on Invested Capital",
+                "secondaryText": "Normalized",
+                "type": "number",
+                "unit": "percent",
+                "value": 30.0902
+              }
+            }
+          },
+          {
+            "label": "MSFT",
+            "values": {
+              "returnOnAssets[normalized]": {
+                "field": "returnOnAssets",
+                "variation": "normalized",
+                "name": "Return on Assets (Normalized)",
+                "label": "Return on Assets",
+                "secondaryText": "Normalized",
+                "type": "number",
+                "unit": "percent",
+                "value": 19.0892
+              },
+              "returnOnEquity[normalized]": {
+                "field": "returnOnEquity",
+                "variation": "normalized",
+                "name": "Return on Equity (Normalized)",
+                "label": "Return on Equity",
+                "secondaryText": "Normalized",
+                "type": "number",
+                "unit": "percent",
+                "value": 32.9513
+              },
+              "returnOnCapital[normalized]": {
+                "field": "returnOnCapital",
+                "variation": "normalized",
+                "name": "Return on Invested Capital (Normalized)",
+                "label": "Return on Invested Capital",
+                "secondaryText": "Normalized",
+                "type": "number",
+                "unit": "percent",
+                "value": 28.616000000000003
+              }
+            }
+          }
+        ]
+      }
+    },
+    "financialStrengthVsBenchmarks": {
+      "status": 200,
+      "payload": {
+        "dataPoints": [
+          {
+            "label": "AAPL",
+            "values": {
+              "quickRatio": {
+                "field": "quickRatio",
+                "name": "Quick Ratio",
+                "label": "Quick Ratio",
+                "properties": {
+                  "reportDate": {
+                    "value": "2026-06-30"
+                  }
+                },
+                "type": "number",
+                "value": 0.812357
+              },
+              "currentRatio": {
+                "field": "currentRatio",
+                "name": "Current Ratio",
+                "label": "Current Ratio",
+                "properties": {
+                  "asOfDate": {
+                    "value": "2026-06-30"
+                  }
+                },
+                "type": "number",
+                "value": 1.003295
+              },
+              "interestCoverage": {
+                "field": "interestCoverage",
+                "name": "Interest Coverage",
+                "label": "Interest Coverage",
+                "properties": {
+                  "reportDate": {
+                    "alias": "interestCoverage.reportDate",
+                    "field": "interestCoverage",
+                    "property": "reportDate",
+                    "name": "Report Date",
+                    "label": "Interest Coverage",
+                    "attributes": {
+                      "type": "date"
+                    }
+                  }
+                },
+                "type": "number"
+              }
+            }
+          },
+          {
+            "label": "005930",
+            "values": {
+              "quickRatio": {
+                "field": "quickRatio",
+                "name": "Quick Ratio",
+                "label": "Quick Ratio",
+                "properties": {
+                  "reportDate": {
+                    "value": "2026-06-30"
+                  }
+                },
+                "type": "number",
+                "value": 2.195358
+              },
+              "currentRatio": {
+                "field": "currentRatio",
+                "name": "Current Ratio",
+                "label": "Current Ratio",
+                "properties": {
+                  "asOfDate": {
+                    "value": "2026-06-30"
+                  }
+                },
+                "type": "number",
+                "value": 2.829667
+              },
+              "interestCoverage": {
+                "field": "interestCoverage",
+                "name": "Interest Coverage",
+                "label": "Interest Coverage",
+                "properties": {
+                  "reportDate": {
+                    "value": "2026-06-30"
+                  }
+                },
+                "type": "number",
+                "value": 242.726384
+              }
+            }
+          },
+          {
+            "label": "MSFT",
+            "values": {
+              "quickRatio": {
+                "field": "quickRatio",
+                "name": "Quick Ratio",
+                "label": "Quick Ratio",
+                "properties": {
+                  "reportDate": {
+                    "value": "2026-06-30"
+                  }
+                },
+                "type": "number",
+                "value": 0.933079
+              },
+              "currentRatio": {
+                "field": "currentRatio",
+                "name": "Current Ratio",
+                "label": "Current Ratio",
+                "properties": {
+                  "asOfDate": {
+                    "value": "2026-06-30"
+                  }
+                },
+                "type": "number",
+                "value": 1.230327
+              },
+              "interestCoverage": {
+                "field": "interestCoverage",
+                "name": "Interest Coverage",
+                "label": "Interest Coverage",
+                "properties": {
+                  "reportDate": {
+                    "value": "2026-06-30"
+                  }
+                },
+                "type": "number",
+                "value": 54.304818
+              }
+            }
+          }
+        ]
+      }
+    },
+    "tradingInformation": {
+      "status": 200,
+      "payload": {
+        "dataPoints": {
+          "totalSharesOutstanding": {
+            "field": "totalSharesOutstanding",
+            "name": "Shares Outstanding",
+            "label": "Shares Outstanding",
+            "properties": {
+              "asOfDate": {
+                "value": "2026-07-17"
+              }
+            },
+            "type": "number",
+            "value": 14594180000
+          }
+        }
+      }
+    },
+    "companyReport": {
+      "status": 401,
+      "payload": "(omitted: premium report, status 401)"
+    },
+    "priceToFairValueSummary": {
+      "status": 401,
+      "payload": "(omitted: premium content, status 401)"
+    }
+  }
+}

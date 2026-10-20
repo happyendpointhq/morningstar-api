@@ -1,0 +1,450 @@
+{
+  "0P000003MH": {
+    "netChange": {
+      "value": -4.77,
+      "properties": {
+        "date": {
+          "value": "2026-10-20T09:50:07-04:00",
+          "properties": {}
+        },
+        "currency": {
+          "value": "USD",
+          "properties": {}
+        },
+        "exchange": {
+          "value": "XCBO",
+          "properties": {}
+        }
+      },
+      "date": {
+        "value": "2026-10-20T09:50:07-04:00",
+        "properties": {}
+      },
+      "currency": {
+        "value": "USD",
+        "properties": {}
+      },
+      "exchange": {
+        "value": "XCBO",
+        "properties": {}
+      }
+    },
+    "askPrice": {
+      "value": 529,
+      "properties": {
+        "date": {
+          "value": "2026-10-20T09:50:08-04:00",
+          "properties": {}
+        },
+        "size": {
+          "value": 100,
+          "properties": {}
+        },
+        "currency": {
+          "value": "USD",
+          "properties": {}
+        },
+        "exchange": {
+          "value": "XCBO",
+          "properties": {}
+        }
+      },
+      "date": {
+        "value": "2026-10-20T09:50:08-04:00",
+        "properties": {}
+      },
+      "size": {
+        "value": 100,
+        "properties": {}
+      },
+      "currency": {
+        "value": "USD",
+        "properties": {}
+      },
+      "exchange": {
+        "value": "XCBO",
+        "properties": {}
+      }
+    },
+    "marketCap": {
+      "value": 3963013628546.7,
+      "properties": {
+        "currency": {
+          "value": "USD",
+          "properties": {}
+        }
+      },
+      "currency": {
+        "value": "USD",
+        "properties": {}
+      }
+    },
+    "ticker": {
+      "value": "MSFT",
+      "properties": {}
+    },
+    "adjustedClosePrice": {
+      "value": 533.52,
+      "properties": {
+        "currency": {
+          "value": "USD",
+          "properties": {}
+        },
+        "exchange": {
+          "value": "XNAS",
+          "properties": {}
+        }
+      },
+      "currency": {
+        "value": "USD",
+        "properties": {}
+      },
+      "exchange": {
+        "value": "XNAS",
+        "properties": {}
+      }
+    },
+    "preMarketNetChange": {
+      "value": -0.04,
+      "properties": {
+        "currency": {
+          "value": "USD",
+          "properties": {}
+        },
+        "exchange": {
+          "value": "XCBO",
+          "properties": {}
+        }
+      },
+      "currency": {
+        "value": "USD",
+        "properties": {}
+      },
+      "exchange": {
+        "value": "XCBO",
+        "properties": {}
+      }
+    },
+    "openPrice": {
+      "value": 533.91,
+      "properties": {
+        "currency": {
+          "value": "USD",
+          "properties": {}
+        },
+        "exchange": {
+          "value": "XCBO",
+          "properties": {}
+        }
+      },
+      "currency": {
+        "value": "USD",
+        "properties": {}
+      },
+      "exchange": {
+        "value": "XCBO",
+        "properties": {}
+      }
+    },
+    "tradingStatus": {
+      "value": "Open",
+      "properties": {
+        "exchange": {
+          "value": "XCBO",
+          "properties": {}
+        }
+      },
+      "exchange": {
+        "value": "XCBO",
+        "properties": {}
+      }
+    },
+    "yearLowPrice": {
+      "value": 349.2,
+      "properties": {
+        "date": {
+          "value": "2026-06-25",
+          "properties": {}
+        },
+        "currency": {
+          "value": "USD",
+          "properties": {}
+        },
+        "exchange": {
+          "value": "XCBO",
+          "properties": {}
+        }
+      },
+      "date": {
+        "value": "2026-06-25",
+        "properties": {}
+      },
+      "currency": {
+        "value": "USD",
+        "properties": {}
+      },
+      "exchange": {
+        "value": "XCBO",
+        "properties": {}
+      }
+    },
+    "bidPrice": {
+      "value": 528.72,
+      "properties": {
+        "date": {
+          "value": "2026-10-20T09:50:07-04:00",
+          "properties": {}
+        },
+        "size": {
+          "value": 2,
+          "properties": {}
+        },
+        "currency": {
+          "value": "USD",
+          "properties": {}
+        },
+        "exchange": {
+          "value": "XCBO",
+          "properties": {}
+        }
+      },
+      "date": {
+        "value": "2026-10-20T09:50:07-04:00",
+        "properties": {}
+      },
+      "size": {
+        "value": 2,
+        "properties": {}
+      },
+      "currency": {
+        "value": "USD",
+        "properties": {}
+      },
+      "exchange": {
+        "value": "XCBO",
+        "properties": {}
+      }
+    },
+    "previousClosePrice": {
+      "value": 533.52,
+      "properties": {
+        "date": {
+          "value": "2026-10-19",
+          "properties": {}
+        },
+        "currency": {
+          "value": "USD",
+          "properties": {}
+        },
+        "exchange": {
+          "value": "XNAS",
+          "properties": {}
+        }
+      },
+      "date": {
+        "value": "2026-10-19",
+        "properties": {}
+      },
+      "currency": {
+        "value": "USD",
+        "properties": {}
+      },
+      "exchange": {
+        "value": "XNAS",
+        "properties": {}
+      }
+    },
+    "volume": {
+      "value": 726951,
+      "properties": {
+        "date": {
+          "value": "2026-10-20T09:35:08-04:00",
+          "properties": {}
+        },
+        "exchange": {
+          "value": "XNAS",
+          "properties": {}
+        }
+      },
+      "date": {
+        "value": "2026-10-20T09:35:08-04:00",
+        "properties": {}
+      },
+      "exchange": {
+        "value": "XNAS",
+        "properties": {}
+      }
+    },
+    "performanceID": {
+      "value": "0P000003MH",
+      "properties": {}
+    },
+    "averageVolume": {
+      "value": 26680072.247665167,
+      "properties": {
+        "exchange": {
+          "value": "XNAS",
+          "properties": {}
+        }
+      },
+      "exchange": {
+        "value": "XNAS",
+        "properties": {}
+      }
+    },
+    "lowPrice": {
+      "value": 525.86,
+      "properties": {
+        "currency": {
+          "value": "USD",
+          "properties": {}
+        },
+        "exchange": {
+          "value": "XCBO",
+          "properties": {}
+        }
+      },
+      "currency": {
+        "value": "USD",
+        "properties": {}
+      },
+      "exchange": {
+        "value": "XCBO",
+        "properties": {}
+      }
+    },
+    "listedCurrency": {
+      "value": "USD",
+      "properties": {}
+    },
+    "highPrice": {
+      "value": 534.24,
+      "properties": {
+        "currency": {
+          "value": "USD",
+          "properties": {}
+        },
+        "exchange": {
+          "value": "XCBO",
+          "properties": {}
+        }
+      },
+      "currency": {
+        "value": "USD",
+        "properties": {}
+      },
+      "exchange": {
+        "value": "XCBO",
+        "properties": {}
+      }
+    },
+    "name": {
+      "value": "Microsoft Corp",
+      "properties": {}
+    },
+    "exchange": {
+      "value": "XNAS",
+      "properties": {}
+    },
+    "percentNetChange": {
+      "value": -0.8939,
+      "properties": {
+        "date": {
+          "value": "2026-10-20T09:50:07-04:00",
+          "properties": {}
+        },
+        "exchange": {
+          "value": "XCBO",
+          "properties": {}
+        }
+      },
+      "date": {
+        "value": "2026-10-20T09:50:07-04:00",
+        "properties": {}
+      },
+      "exchange": {
+        "value": "XCBO",
+        "properties": {}
+      }
+    },
+    "preMarketPrice": {
+      "value": 533.56,
+      "properties": {
+        "currency": {
+          "value": "USD",
+          "properties": {}
+        },
+        "exchange": {
+          "value": "XCBO",
+          "properties": {}
+        }
+      },
+      "currency": {
+        "value": "USD",
+        "properties": {}
+      },
+      "exchange": {
+        "value": "XCBO",
+        "properties": {}
+      }
+    },
+    "yearHighPrice": {
+      "value": 553.5,
+      "properties": {
+        "date": {
+          "value": "2025-10-28",
+          "properties": {}
+        },
+        "currency": {
+          "value": "USD",
+          "properties": {}
+        },
+        "exchange": {
+          "value": "XCBO",
+          "properties": {}
+        }
+      },
+      "date": {
+        "value": "2025-10-28",
+        "properties": {}
+      },
+      "currency": {
+        "value": "USD",
+        "properties": {}
+      },
+      "exchange": {
+        "value": "XCBO",
+        "properties": {}
+      }
+    },
+    "lastPrice": {
+      "value": 528.83,
+      "properties": {
+        "date": {
+          "value": "2026-10-20T09:50:07-04:00",
+          "properties": {}
+        },
+        "currency": {
+          "value": "USD",
+          "properties": {}
+        },
+        "exchange": {
+          "value": "XCBO",
+          "properties": {}
+        }
+      },
+      "date": {
+        "value": "2026-10-20T09:50:07-04:00",
+        "properties": {}
+      },
+      "currency": {
+        "value": "USD",
+        "properties": {}
+      },
+      "exchange": {
+        "value": "XCBO",
+        "properties": {}
+      }
+    }
+  }
+}
