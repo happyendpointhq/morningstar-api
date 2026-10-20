@@ -1,6 +1,7 @@
-"""Look up a stock by ticker and exchange, then read its real-time quote.
+"""Find a stock by name (or ticker and exchange), then read its overview and real-time quote.
 
-    python quickstart.py AAPL xnas
+    python quickstart.py apple
+    python quickstart.py "coca cola"
     python quickstart.py MSFT xnas
 
 /stock/details returns the performanceID that every /stock/... research endpoint takes.
@@ -10,8 +11,22 @@ import sys
 
 from client import component, fmt, get
 
-ticker = sys.argv[1] if len(sys.argv) > 1 else "AAPL"
-exchange = sys.argv[2] if len(sys.argv) > 2 else "xnas"
+if len(sys.argv) > 2:
+    ticker, exchange = sys.argv[1], sys.argv[2]
+else:
+    # 0. Resolve a name with /auto-complete. Matches are ranked by score and mix in other
+    #    companies ("apple" also returns Apple Hospitality REIT), so check what you got.
+    query = sys.argv[1] if len(sys.argv) > 1 else "apple"
+    matches = [e["value"] for e in get("/auto-complete", q=query).get("entities", [])
+               if e.get("type") == "security"]
+    if not matches:
+        raise SystemExit(f"No Morningstar security matches {query!r}")
+    for m in matches[:3]:
+        print(f"  {m['exchange']}:{m['ticker']:<6} {m['name']}  ({m['investmentType']})")
+    ticker = matches[0]["ticker"]
+    # /auto-complete returns upper-case exchange codes; /stock/details takes lower case.
+    exchange = matches[0]["exchange"].lower()
+    print()
 
 # 1. The overview page: identifiers, profile, key statistics.
 details = get("/stock/details", ticker=ticker, exchange=exchange)

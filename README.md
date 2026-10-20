@@ -76,7 +76,7 @@ curl "https://morningstar13.p.rapidapi.com/stock/real-time?performanceId=0P00000
 ```bash
 pip install -r requirements.txt
 cd examples/python
-python quickstart.py AAPL xnas
+python quickstart.py apple
 ```
 
 ```python
@@ -218,7 +218,7 @@ produce wrong numbers rather than errors.
 
 | File | What it does |
 |---|---|
-| [`examples/python/quickstart.py`](examples/python/quickstart.py) | Overview, profile and key statistics for a ticker, then its real-time quote |
+| [`examples/python/quickstart.py`](examples/python/quickstart.py) | Finds a stock by name with `/auto-complete`, then its overview, key statistics and real-time quote |
 | [`examples/python/peer_compare.py`](examples/python/peer_compare.py) | Valuation, profitability and financial strength against competitors, from one call |
 | [`examples/python/key_stats_to_csv.py`](examples/python/key_stats_to_csv.py) | Key statistics for a list of stocks to CSV, one call per stock |
 | [`examples/javascript/quickstart.mjs`](examples/javascript/quickstart.mjs) | Overview and key statistics in Node 18+, no dependencies |
@@ -293,9 +293,9 @@ above summarises them. Live example responses are in [`samples/`](samples/).
 
 ### Can I get Morningstar fund and ETF data?
 
-`/auto-complete` searches companies, funds and ETFs. The research endpoints in this repo
-were tested on stocks; try a fund's `performanceId` on the free plan to see which sections
-it returns.
+`/auto-complete` searches companies, funds and ETFs and returns each match's ticker,
+exchange, ISIN and performanceID. The research endpoints in this repo were tested on
+stocks; try a fund's `performanceId` on the free plan to see which sections it returns.
 
 ### Can I get financial statements and earnings call transcripts?
 
