@@ -12,6 +12,8 @@ It is a data API, not investment advice.
 
 - Subscribe and test every endpoint on RapidAPI: https://rapidapi.com/happyendpoint/api/morningstar13
 - Product page: https://happyendpoint.com/library/morningstar?utm_source=github&utm_medium=readme&utm_campaign=morningstar-api
+- Postman documentation: https://documenter.getpostman.com/view/56555678/2sBYHXReCd
+- Postman collection (fork and run): https://www.postman.com/happyendpoints-team/morningstar-api
 
 ---
 
